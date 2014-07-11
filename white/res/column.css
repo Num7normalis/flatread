@@ -13,7 +13,8 @@ Module: column.css
 /* ===== COLUMN ===== */
 #column {
 	float: right;
-	width: 200px !important;
+	width: 20% !important;
+	min-width: 150px;
 	font-size: 80% !important;
 	font-size: 1em;
 	height:1%;
