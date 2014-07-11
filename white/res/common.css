@@ -1,0 +1,316 @@
+/*
+===================
+FlatRead White CSS Styles
+===================
+Ispired by: Read Wordpress theme
+-------------------
+Name: FlatRead
+Author: Marc Thibeault
+Version: 0.1
+Module: common.css
+*/
+
+/* ===== GENERAL (redefinition HTML tag) ===== */
+html {
+	font-family: 'Lora', serif;
+	margin: 0;
+	color: black;
+	padding: 0
+}
+
+body {
+	font-size: 1.2em;
+	padding: 0;
+	text-align:center;
+}
+
+hr { display: none }
+
+p { margin: .5em 0 }
+
+img { border: none }
+
+blockquote {
+	width: 90%;
+	color: #333;
+	margin: 1em 1em;
+	padding: 0 10px;
+	border-left: 5px solid #bbb
+}
+
+pre, code {
+	font-family: 'Lora', serif;
+	font-size: 90%;
+}
+
+pre {
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	background-color: #efefef;
+
+	overflow: auto;
+	width: 90%;
+	margin: 1em 1em;
+	padding: 5px 10px;
+	
+	/* fix overflow in IE */
+	min-height: 40px; 
+	height: auto !important; 
+	height: 40px; 
+}
+
+ul, li, ol { margin: 0; padding: 0 }
+
+/* === Form === */
+form { margin: 1em 0 }
+
+fieldset {
+	margin: 0 0 1em 0;
+	padding: .5em;
+	border: #ddd solid 1px
+}
+
+legend {
+	color: #666666;
+	font-size: 80%;
+	font-style: oblique
+}
+
+input, textarea, select {
+	padding: .2em;
+	border: 1px solid #999;
+	color: #222;
+	background-color: #eee;
+}
+
+input:hover, input:focus, textarea:hover, textarea:focus {
+	border: 1px solid #AA1111;
+	background-color: #fff
+}
+
+textarea {
+	font-size: 100%;
+	font-family: 'Lora', serif;
+	width: 99%;
+	margin-top: .1em;
+	margin-bottom: 1em
+}
+
+
+
+/* ===== LINKS GENERAL ===== */
+a:link, a:visited {
+	color: black;
+	font-weight: bold;
+	text-decoration: none
+}
+
+a:hover {
+	color: black;
+	text-decoration: underline
+}
+
+
+
+/* ===== HEADERS TAGS ===== */
+h1 {
+	/* Title of the blog */
+	font-size: 6em;
+	letter-spacing: 2px;
+	text-align: center;
+	font-family: 'UnifrakturMaguntia', cursive;
+}
+
+h2 {
+	font-size: 3.5em;
+} /* see h2.date */
+
+h3 {
+	/* Titles of the entry */
+	font-family: 'Lora', serif;
+	font-size: 2.5em;
+	color: black;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	text-align: center;
+	margin: 0
+}
+
+h4 { font-size: 1.5em; }
+
+
+
+/* ===== DIV CONTAINER ALL ELEMENTS BLOCK ===== */
+#body-container {
+	text-align: left;
+	width: 80% !important;
+	margin: 0 auto 0 auto;
+	padding: 25px;
+	background-color: white
+}
+
+
+
+/* ===== HEAD ===== */
+#head {
+	font-family: 'Lora', serif;
+	padding: 5px 5px 5px 5px;
+	margin: 5px;
+	text-align: center;
+}
+
+#head a { color: black; text-decoration: none }
+
+	.subtitle {
+		color: black;
+		border-bottom: silver 1px solid;
+		padding-bottom: 50px;
+		margin: .5em 0 0 0;
+		font-style: oblique;
+	}
+
+
+
+/* ===== DIV CONTAINER "MAIN" ===== */
+#outer-container {
+	position: relative;
+	height: 1%;
+	margin: 0px;
+	padding: 0px;
+	background-color: white
+}
+
+
+
+/* ===== MAIN ===== */
+#main h4 { margin: 2em 0 0 0}
+
+#main {
+	float:left;
+	position: relative;
+	width: 70%;
+	font-size: 100%;
+	margin: 12px;
+}
+
+#main p { font-size: 1em}
+
+#main img { margin: .5em }
+
+/* === List === */
+#main ul {
+	list-style-type: disc;
+	padding: 0 0 0 1.6em
+}
+
+#main ol {
+	list-style-position: inside;
+	padding: 0 1.6em 0 1.6em
+}
+
+	#commentform fieldset p { margin: 0 0 .5em 0 }
+	
+	#comments li {
+		margin: 0 0 1.5em 0;
+		padding: 5px;
+		border-top: 1px solid #ddd;
+		border-bottom: 1px solid #ddd;
+		background: #efefef
+	}
+	
+	.postinfo {
+		text-align: center;
+		padding: 25px;
+		font-style: oblique;
+		font-size: 0.8em;
+	}
+	
+	/* === Class of main block === */
+	h2.date {
+		font-size: 1em;
+		color: black;
+	}
+	
+	.date { /* date under titles of the entry */
+		font-size: 80%;
+		font-style: oblique;
+		color: gray;
+		margin: .2em 0 .8em 0
+	}
+	
+	/* .entry class */
+	.entry {
+		margin: 0 0 1.5em 0;
+		padding: 0;
+		overflow: auto; /* floating images fix IE<7*/
+	}
+	
+	#main>.entry {
+		overflow: hidden; /* rest of the world :) */
+	}
+	/* end of .entry */
+	
+	#main ul.entry-footer { /*  entry footer */
+		clear: both;
+		font-size: 80%;
+		color: gray;
+		margin: 2em 0 .5em 0;
+		text-align: right;
+	}
+	
+	.entry-footer li { 
+		display: block;
+	}
+	
+	
+	.admincontrols { /* [edit] and [delete] */
+		font-size: 80%;
+		text-align: right;
+	}
+	
+	.buttonbar { text-align: center }
+	
+	.buttonbar input {
+		text-align: center;
+		margin: .1em .5em;
+		padding: 0 1em
+	}
+	
+	.navigation { /* next entries & previous entries link */
+		font-size: 80%;
+		margin-bottom: 5em
+	}
+
+	#main ul.share {
+		clear: both;
+		margin: 0.5em;
+		font-size: 0.8em;
+		list-style-type: none;
+		text-align: center;}
+		
+	#main span.facebook {
+		margin-left:10px;
+		background: url(../imgs/social/facebook-12x12.png) no-repeat;
+		padding-left:20px;
+		background-position: left;}
+		
+	#main span.twitter {
+		margin-left:10px;
+		background: url(../imgs/social/twitter-12x12.png) no-repeat;
+		padding-left:20px;
+		background-position: left;}
+	
+	#main span.googleplus {
+		margin-left:10px;
+		background: url(../imgs/social/google+-12x12.png) no-repeat;
+		padding-left:20px;
+		background-position: left;}
+
+/* ===== FOOTER ===== */
+#footer {
+	clear: both;
+	font-size: 80%;
+	color: black;
+	padding: 5px;
+	border-top: black 1px solid
+}
