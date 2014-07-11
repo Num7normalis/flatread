@@ -1,0 +1,4 @@
+flatread
+========
+
+Minimalist FlatPress theme
