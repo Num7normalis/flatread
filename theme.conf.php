@@ -3,7 +3,7 @@
 Theme Name: FlatRead
 Theme URI: http://marcthibeault.com
 Description: Minimalist FlatPress theme.
-Version: 0.1.0
+Version: 0.1
 Author: Marc Thibeault
 Author URI: http://marcthibeault.com
 */

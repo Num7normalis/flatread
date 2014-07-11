@@ -3,7 +3,7 @@
 Style Name: FlatRead White
 Style URI: http://marcthibeault.com
 Description: White version of FlatRead, the minimalist FlatPress theme.
-Version: 0.1.0
+Version: 0.1
 Author: Marc Thibeault
 Author URI: http://marcthibeault.com
 */
