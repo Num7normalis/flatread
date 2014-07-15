@@ -12,9 +12,9 @@
 				<div class="postinfo"><i>Posted{if ($categories)} in {$categories|@filed}{/if} on {$date|date_format_daily:"`$fp_config.locale.dateformat`"} by {$author} 
 				</i>
 				{if !(in_array('commslock', $categories) && !$comments)}
-				( <a href="{$id|link:comments_link}#comments">{$comments|tag:comments_number} 
+				<a href="{$id|link:comments_link}#comments">{$comments|tag:comments_number} 
 					{if isset($views)}(<strong>{$views}</strong> views){/if}
-				</a>)
+				</a>
 				{/if}
 				</div>
 				

@@ -25,11 +25,12 @@ Module: column.css
 #column h4 {
 	/* Titles of the sections */
 	margin-bottom: .5em;
+	font-weight: 400;
 }
 
 #column p, #column div { margin: 10px 5px }
 
-#column a:link, #column a:visited { font-size: 1em }
+#column a:link, #column a:visited { font-size: 1em; font-weight: 400 }
 
 /* === List === */
 #column ul li table { font-size: 100% }

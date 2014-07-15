@@ -14,7 +14,7 @@ Module: common.css
 html {
 	font-family: 'Lora', serif;
 	margin: 0;
-	color: black;
+	color: #444;
 	padding: 0
 }
 
@@ -32,7 +32,7 @@ img { border: none }
 
 blockquote {
 	width: 90%;
-	color: #333;
+	color: #444;
 	margin: 1em 1em;
 	padding: 0 10px;
 	border-left: 5px solid #bbb
@@ -100,14 +100,15 @@ textarea {
 
 /* ===== LINKS GENERAL ===== */
 a:link, a:visited {
-	color: black;
-	font-weight: bold;
-	text-decoration: none
+	color: #444;
+	font-weight: 400;
+	text-decoration: none;
+	border-bottom: 1px dotted #ccc;
 }
 
 a:hover {
 	color: black;
-	text-decoration: underline
+	text-decoration: none;
 }
 
 
@@ -123,20 +124,23 @@ h1 {
 
 h2 {
 	font-size: 3.5em;
+	font-family: 'Coustard', serif;
 } /* see h2.date */
 
 h3 {
 	/* Titles of the entry */
-	font-family: 'Lora', serif;
+	font-weight: 400;
+	font-family: 'Coustard', serif;
 	font-size: 2.5em;
-	color: black;
+	color: #444;
 	padding-top: 20px;
 	padding-bottom: 10px;
 	text-align: center;
 	margin: 0
 }
 
-h4 { font-size: 1.5em; }
+h4 { font-size: 1.5em; 
+	font-family: 'Coustard', serif;}
 
 
 
@@ -159,11 +163,14 @@ h4 { font-size: 1.5em; }
 	text-align: center;
 }
 
-#head a { color: black; text-decoration: none }
+#head a { color: #444; text-decoration: none }
+
+#head a:hover { color: black; text-decoration: none }
 
 	.subtitle {
-		color: black;
-		border-bottom: silver 1px solid;
+		color: #444;
+		font-family: 'Coustard', serif;
+		border-bottom: #eee 1px solid;
 		padding-bottom: 50px;
 		margin: .5em 0 0 0;
 		font-style: oblique;
@@ -310,7 +317,7 @@ h4 { font-size: 1.5em; }
 #footer {
 	clear: both;
 	font-size: 80%;
-	color: black;
+	color: #444;
 	padding: 5px;
-	border-top: black 1px solid
+	border-top: #444 1px solid
 }
