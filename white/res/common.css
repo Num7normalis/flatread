@@ -19,14 +19,14 @@ html {
 }
 
 body {
-	font-size: 1.2em;
+	font-size: 1.4em;
 	padding: 0;
 	text-align:center;
 }
 
 hr { display: none }
 
-p { margin: .5em 0 }
+p { margin: 1em 0;}
 
 img { border: none }
 
@@ -44,9 +44,9 @@ pre, code {
 }
 
 pre {
-	border-top: 1px solid #ddd;
-	border-bottom: 1px solid #ddd;
-	background-color: #efefef;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	background-color: #ddd;
 
 	overflow: auto;
 	width: 90%;
@@ -100,10 +100,9 @@ textarea {
 
 /* ===== LINKS GENERAL ===== */
 a:link, a:visited {
-	color: #444;
+	color: #CE6607;
 	font-weight: 400;
 	text-decoration: none;
-	border-bottom: 1px dotted #ccc;
 }
 
 a:hover {
@@ -117,13 +116,17 @@ a:hover {
 h1 {
 	/* Title of the blog */
 	font-size: 6em;
+	font-weight: 400;
 	letter-spacing: 2px;
 	text-align: center;
 	font-family: 'UnifrakturMaguntia', cursive;
 }
 
+h1 a:link {border-bottom: 1px dotted #ccc;}
+
 h2 {
 	font-size: 3.5em;
+	font-weight: 400;
 	font-family: 'Coustard', serif;
 } /* see h2.date */
 
@@ -131,7 +134,7 @@ h3 {
 	/* Titles of the entry */
 	font-weight: 400;
 	font-family: 'Coustard', serif;
-	font-size: 2.5em;
+	font-size: 2.2em;
 	color: #444;
 	padding-top: 20px;
 	padding-bottom: 10px;
@@ -139,10 +142,21 @@ h3 {
 	margin: 0
 }
 
+h3 a:link, a:visited {
+	color: #444;
+	font-weight: 400;
+	text-decoration: none;
+	border-bottom: 1px dotted #ccc;
+}
+
+h3 a:hover {
+	color: black;
+	text-decoration: none;
+}
+
 h4 { font-size: 1.5em; 
+	font-weight: 400;
 	font-family: 'Coustard', serif;}
-
-
 
 /* ===== DIV CONTAINER ALL ELEMENTS BLOCK ===== */
 #body-container {
@@ -171,7 +185,7 @@ h4 { font-size: 1.5em;
 		color: #444;
 		font-family: 'Coustard', serif;
 		border-bottom: #eee 1px solid;
-		padding-bottom: 50px;
+		padding-bottom: 40px;
 		margin: .5em 0 0 0;
 		font-style: oblique;
 	}
@@ -195,7 +209,7 @@ h4 { font-size: 1.5em;
 #main {
 	float:left;
 	position: relative;
-	width: 70%;
+	width: 65%;
 	font-size: 100%;
 	margin: 12px;
 }
@@ -231,6 +245,10 @@ h4 { font-size: 1.5em;
 		font-style: oblique;
 		font-size: 0.8em;
 	}
+
+	.postinfo a:link, a:visited{color: #444; font-weight: bold;}
+
+	.postinfo a:hover { color: black; text-decoration: none }
 	
 	/* === Class of main block === */
 	h2.date {
@@ -294,11 +312,16 @@ h4 { font-size: 1.5em;
 		font-size: 0.8em;
 		list-style-type: none;
 		text-align: center;}
+
+	#main ul.share a{color: #444; font-weight: bold;}
+
+	#main ul.share a:hover { color: black; text-decoration: none }
 		
 	#main span.facebook {
 		margin-left:10px;
 		background: url(../imgs/social/facebook-12x12.png) no-repeat;
 		padding-left:20px;
+		color: #444;
 		background-position: left;}
 		
 	#main span.twitter {
@@ -321,3 +344,7 @@ h4 { font-size: 1.5em;
 	padding: 5px;
 	border-top: #444 1px solid
 }
+
+#footer a:link, a:visited{color: #444; font-weight: bold;}
+
+#footer a:hover {color: black;}

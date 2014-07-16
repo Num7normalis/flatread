@@ -69,6 +69,10 @@ ul#admin-small-nav {
 
 ul#admin-small-nav li { display: inline; margin: 5px }
 
+#admin-small-nav a:link a:visited {color: #black;}
+
+#admin-small-nav a:hover {font-weight: bold;}
+
 
 
 /* ===== TAB MENU ===== */
@@ -159,6 +163,9 @@ ul#admin-tabmenu li a.admin-tab-current {
 	font-size: 80%;
 	font-style: italic
 }
+
+.admin-mainmenu-item a:link, a:visited {color: #CE6607;}
+.admin-mainmenu-item a:hover {color: black;}
 
 
 
@@ -587,4 +594,7 @@ a.link-general:hover, .main-cell a:hover {
 #admin-content ul.msgs {
 	margin:0;
 }
-yy
+
+#footer a:link, a:visited{color: #444; font-weight: bold;}
+
+#footer a:hover {color: black;}
