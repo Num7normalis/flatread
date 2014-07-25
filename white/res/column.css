@@ -30,7 +30,7 @@ Module: column.css
 
 #column p, #column div { margin: 10px 5px }
 
-#column a:link, a:visited { font-size: 1em; font-weight: 400; color: #444; }
+#column a:link { font-size: 1em; font-weight: bold; color: #333; }
 
 #column a:hover { color: black; text-decoration: bold }
 
