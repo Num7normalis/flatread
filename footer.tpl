@@ -19,7 +19,7 @@
 			
 			<p>
 			This blog is powered by <a href="http://www.flatpress.org/">FlatPress</a>. <br>
-			FlatRead theme by <a href="http://marcthibeault.com">Marc Thibeault</a>
+			FlatRead theme by <a href="http://marcthibeault.com">Marc Thibeault</a>. 
 			</p>
 		</div> <!-- end of #footer -->
 

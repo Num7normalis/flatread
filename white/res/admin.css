@@ -164,7 +164,7 @@ ul#admin-tabmenu li a.admin-tab-current {
 	font-style: italic
 }
 
-.admin-mainmenu-item a:link, a:visited {color: #CE6607;}
+.admin-mainmenu-item a:link, a:visited {color: #333;}
 .admin-mainmenu-item a:hover {color: black;}
 
 
@@ -595,6 +595,6 @@ a.link-general:hover, .main-cell a:hover {
 	margin:0;
 }
 
-#footer a:link, a:visited{color: #444; font-weight: bold;}
+#footer a:link, a:visited{color: #333; font-weight: bold;}
 
 #footer a:hover {color: black;}
