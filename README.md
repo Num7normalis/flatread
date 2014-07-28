@@ -1,6 +1,9 @@
 ##FlatRead: Minimalist FlatPress theme
 This theme is very simplistic and minimalist. It is also responsive, as it will adapt to the visitor's display size and will be rendered properly on any kind of device. 
 
+###Preview
+![Alt text](https://dl.dropboxusercontent.com/u/26097868/marcthibeault.com/flatread-preview-1.png "Optional title")
+
 ###How to install
 1. Download the latest available ZIP package. 
 2. Create a new folder and name it flatread. 
