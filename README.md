@@ -1,11 +1,12 @@
 ##FlatRead: Minimalist FlatPress theme
+####v0.1
 This theme is very simplistic and minimalist. It is also responsive, as it will adapt to the visitor's display size and will be rendered properly on any kind of device. 
 
 ###Preview
 ![Alt text](https://dl.dropboxusercontent.com/u/26097868/marcthibeault.com/flatread-preview-1.png "Optional title")
 
 ###How to install
-1. Download the latest available ZIP package. 
+1. Download the latest released version, or the current development build's ZIP package. 
 2. Create a new folder and name it flatread. 
 3. Extract the ZIP package's content in the flatread folder. 
 4. Upload the flatread folder to your FlatPress blog's themes folders. (*yourblog.com/fp-interface/themes/*)
@@ -13,6 +14,5 @@ This theme is very simplistic and minimalist. It is also responsive, as it will 
 
 ###Support
 FlatRead is developped and maintained by Marc Thibeault: http://marcthibeault.com
-Feel free to get in touch via my personal blog or on the official FlatPress forum for any support request, question or suggestion: http://flatpress.org/vanilla2/
 
-####Current version: 0.1
+Feel free to contact me via my personal website (http://marcthibeault.com) or on the official FlatPress forum (http://flatpress.org/vanilla2/) for any support request, question or suggestion. 
