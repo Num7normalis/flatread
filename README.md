@@ -8,7 +8,7 @@ This theme is very simplistic and minimalist. It is also responsive, as it will 
 ###How to install
 1. Download the latest released version, or the current development build's ZIP package. 
 2. Create a new folder and name it flatread. 
-3. Extract the ZIP package's content in the flatread folder. 
+3. Extract the theme inside your flatread folder. 
 4. Upload the flatread folder to your FlatPress blog's themes folders. (*yourblog.com/fp-interface/themes/*)
 5. Select the FlatRead theme in your AdminCP's themes section. 
 
