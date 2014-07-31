@@ -3,17 +3,16 @@
 Theme Name: FlatRead
 Theme URI: http://marcthibeault.com
 Description: Minimalist FlatPress theme.
-Version: 0.1
+Version: 1.0
 Author: Marc Thibeault
 Author URI: http://marcthibeault.com
 */
 
 
 	$theme['name'] = 'flatread';
-	$theme['author'] = 'drudo and NoWhereMan';
+	$theme['author'] = 'Marc Thibeault';
 	$theme['www'] = 'http://marcthibeault.com';
-	$theme['description'] = 'Default FlatPress Theme. Brings a a breathe of fresh air and'.
-							'blah blah';
+	$theme['description'] = 'A minimalist FlatPress theme';
 	
 	
 	$theme['version'] = 1.0;

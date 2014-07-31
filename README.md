@@ -1,5 +1,5 @@
 ##FlatRead: Minimalist FlatPress theme
-####v0.1
+####v1.0
 This theme is very simplistic and minimalist. It is also responsive, as it will adapt to the visitor's display size and will be rendered properly on any kind of device. 
 
 ###Preview
