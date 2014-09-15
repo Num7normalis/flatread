@@ -13,6 +13,6 @@ This theme is very simplistic and minimalist. It is also responsive, as it will 
 5. Select the FlatRead theme in your AdminCP's themes section. 
 
 ###Support
-FlatRead is developped and maintained by Marc Thibeault: http://marcthibeault.com
+FlatRead is developped and maintained by Marc Thibeault: http://blog.marcthibeault.com
 
-Feel free to contact me via my personal website (http://marcthibeault.com) or on the official FlatPress forum (http://flatpress.org/vanilla2/) for any support request, question or suggestion. 
+Feel free to contact me via my personal website (http://blog.marcthibeault.com) or on the official FlatPress forum (http://flatpress.org/vanilla2/) for any support request, question or suggestion. 
