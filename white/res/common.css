@@ -110,14 +110,6 @@ a:hover {
 }
 
 /* ===== HEADERS TAGS ===== */
-h1 {
-	/* Title of the blog */
-	font-size: 6em;
-	font-weight: 400;
-	letter-spacing: 2px;
-	text-align: center;
-	font-family: 'UnifrakturMaguntia', cursive;
-}
 
 h1 a:link {border-bottom: 1px dotted #ccc;}
 
@@ -150,17 +142,6 @@ h4 { font-size: 1.5em;
 	font-weight: 400;
 	font-family: 'Coustard', serif;}
 
-/* ===== DIV CONTAINER ALL ELEMENTS BLOCK ===== */
-#body-container {
-	text-align: left;
-	width: 80% !important;
-	margin: 0 auto 0 auto;
-	padding: 25px;
-	background-color: white
-}
-
-
-
 /* ===== HEAD ===== */
 #head {
 	font-family: 'Lora', serif;
@@ -180,8 +161,6 @@ h4 { font-size: 1.5em;
 		font-style: oblique;
 	}
 
-
-
 /* ===== DIV CONTAINER "MAIN" ===== */
 #outer-container {
 	position: relative;
@@ -191,18 +170,65 @@ h4 { font-size: 1.5em;
 	background-color: white
 }
 
+/* ===== NORMAL DESIGN ===== */
+@media (min-width: 720px) {
+	h1 {
+		/* Title of the blog */
+		font-size: 5em;
+		font-weight: 400;
+		letter-spacing: 2px;
+		text-align: center;
+		font-family: 'UnifrakturMaguntia', cursive;
+	}
+	/* ===== DIV CONTAINER ALL ELEMENTS BLOCK ===== */
+	#body-container {
+		text-align: left;
+		width: 80% !important;
+		margin: 0 auto 0 auto;
+		padding: 25px;
+		background-color: white
+	}
 
-
-/* ===== MAIN ===== */
-#main h4 { margin: 2em 0 0 0}
-
-#main {
-	float:left;
-	position: relative;
-	width: 65%;
-	font-size: 100%;
-	margin: 12px;
+	/* ===== MAIN ===== */
+	#main {
+		float:left;
+		position: relative;
+		width: 65%;
+		font-size: 100%;
+		margin: 12px;
+	}
 }
+
+/* ===== RESPONSIVE DESIGN ===== */
+@media (max-width: 719px) {
+	
+	h1 {
+		/* Title of the blog */
+		font-size: 3em;
+		font-weight: 400;
+		letter-spacing: 2px;
+		text-align: center;
+		font-family: 'UnifrakturMaguntia', cursive;
+	}
+
+	/* ===== DIV CONTAINER ALL ELEMENTS BLOCK ===== */
+	#body-container {
+		text-align: left;
+		width: 90% !important;
+		margin: 0 auto 0 auto;
+		background-color: white
+	}
+
+	/* ===== MAIN ===== */
+	#main {
+		float:left;
+		position: relative;
+		width: 100%;
+		font-size: 80%;
+	}
+}
+
+#main h4 { margin: 2em 0 0 0}
 
 #main p { font-size: 1em}
 
@@ -326,6 +352,7 @@ h4 { font-size: 1.5em;
 
 /* ===== FOOTER ===== */
 #footer {
+	text-align:center;
 	clear: both;
 	font-size: 80%;
 	color: #444;

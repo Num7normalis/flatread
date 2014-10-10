@@ -11,15 +11,32 @@ Module: column.css
 */
 
 /* ===== COLUMN ===== */
-#column {
-	float: right;
-	width: 20% !important;
-	min-width: 150px;
-	font-size: 80% !important;
-	font-size: 1em;
-	height:1%;
-	margin-bottom: 5px;
-	padding: 10px;
+/* ===== NORMAL DESIGN ===== */
+@media (min-width: 720px) {
+	#column {
+		float: right;
+		width: 20% !important;
+		min-width: 150px;
+		font-size: 80% !important;
+		font-size: 1em;
+		height:1%;
+		margin-bottom: 5px;
+		padding: 10px;
+	}
+}
+
+/* ===== RESPONSIVE DESIGN ===== */
+@media (max-width: 719px) {
+	#column {
+		text-align:center;
+		float: center;
+		width: 100% !important;
+		font-size: 80% !important;
+		font-size: 1em;
+		height:1%;
+		margin-bottom: 5px;
+		padding: 10px;
+	}
 }
 
 #column h4 {
