@@ -39,6 +39,7 @@ h2 {
 
 body { background: #eee; 
 	font-size: 1em;
+	min-width: 1000px;
 }
 
 /* === Redefines some stuff in inline mode === */
