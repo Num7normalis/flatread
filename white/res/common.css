@@ -111,7 +111,10 @@ a:hover {
 
 /* ===== HEADERS TAGS ===== */
 
-h1 a:link {border-bottom: 1px dotted #ccc;}
+h1 a:link {
+	border-bottom: 1px dotted #ccc;
+	font-weight: normal;
+}
 
 h2 {
 	font-size: 3.5em;
