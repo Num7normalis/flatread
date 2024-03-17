@@ -30,7 +30,6 @@
 					<li>
 					<span class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u={$id|link:post_link}&t={$subject}" target="_blank" title="Share on Facebook">Facebook</a></span>
 					<span class="twitter"><a href="https://twitter.com/intent/tweet?source=webclient&text={$subject}&via=MarcThibeault&url={$id|link:post_link}" target="_blank" title="Share on Twitter">Twitter</a> </span>
-					<span class="googleplus"><a href="https://plusone.google.com/_/+1/confirm?url={$id|link:post_link}&title={$subject}" target="_blank" title="Share on Google+">Google+</a> </span>
 					</li>
 				</ul>				
 	</div>
