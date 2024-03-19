@@ -334,25 +334,6 @@ h4 { font-size: 1.5em;
 
 	#main ul.share a:hover { color: black; text-decoration: underline }
 		
-	#main span.facebook {
-		margin-left:10px;
-		background: url(../imgs/social/facebook-12x12.png) no-repeat;
-		padding-left:20px;
-		color: #444;
-		background-position: left;}
-		
-	#main span.twitter {
-		margin-left:10px;
-		background: url(../imgs/social/twitter-12x12.png) no-repeat;
-		padding-left:20px;
-		background-position: left;}
-	
-	#main span.googleplus {
-		margin-left:10px;
-		background: url(../imgs/social/google+-12x12.png) no-repeat;
-		padding-left:20px;
-		background-position: left;}
-
 /* ===== FOOTER ===== */
 #footer {
 	text-align:center;
