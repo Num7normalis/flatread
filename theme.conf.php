@@ -1,17 +1,17 @@
 <?php
 /*  
 Theme Name: FlatRead
-Theme URI: http://marcthibeault.com
+Theme URI: https://num7.paranormalis.com
 Description: Minimalist FlatPress theme.
 Version: 1.0
-Author: Marc Thibeault
-Author URI: http://marcthibeault.com
+Author: Num7
+Author URI: https://num7.paranormalis.com
 */
 
 
 	$theme['name'] = 'flatread';
-	$theme['author'] = 'Marc Thibeault';
-	$theme['www'] = 'http://marcthibeault.com';
+	$theme['author'] = 'Num7';
+	$theme['www'] = 'https://num7.paranormalis.com';
 	$theme['description'] = 'A minimalist FlatPress theme';
 	
 	

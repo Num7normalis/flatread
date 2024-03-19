@@ -1,19 +1,19 @@
 <?php
 /*  
 Style Name: FlatRead White
-Style URI: http://marcthibeault.com
+Style URI: https://num7.paranormalis.com
 Description: White version of FlatRead, the minimalist FlatPress theme.
 Version: 1.0
-Author: Marc Thibeault
-Author URI: http://marcthibeault.com
+Author: Num7
+Author URI: https://num7.paranormalis.com
 */
 
 
 
 	
 	$style['name'] = 'white';
-	$style['author'] = 'Marc Thibeault';
-	$style['www'] = 'http://marcthibeault.com';
+	$style['author'] = 'Num7';
+	$style['www'] = 'https://num7.paranormalis.com';
 	
 	$style['version'] = 1.0;
 		

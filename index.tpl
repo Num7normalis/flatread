@@ -1,4 +1,4 @@
-{include file=header.tpl}
+{include file="header.tpl"}
 
 		<div id="main">
 		
@@ -6,7 +6,7 @@
 		{entry_block}
 		
 			{entry}
-			{include file='entry-default.tpl'}
+			{include file="entry-default.tpl"}
 			{/entry}
 		
 			<div class="navigation">
@@ -18,6 +18,6 @@
 		</div>
 			
 
-		{include file=widgets.tpl}
+		{include file="widgets.tpl"}
 				
-{include file=footer.tpl}
+{include file="footer.tpl"}
