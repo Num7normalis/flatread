@@ -3,7 +3,7 @@
 Theme Name: FlatRead
 Theme URI: https://num7.paranormalis.com
 Description: Minimalist FlatPress theme.
-Version: 1.0
+Version: 1.1
 Author: Num7
 Author URI: https://num7.paranormalis.com
 */
@@ -15,7 +15,7 @@ Author URI: https://num7.paranormalis.com
 	$theme['description'] = 'A minimalist FlatPress theme';
 	
 	
-	$theme['version'] = 1.0;
+	$theme['version'] = 1.1;
 		
 	$theme['style_def'] = 'style.css';
 	$theme['style_admin'] = 'admin.css';

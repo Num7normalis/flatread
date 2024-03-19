@@ -3,7 +3,7 @@
 Style Name: FlatRead White
 Style URI: https://num7.paranormalis.com
 Description: White version of FlatRead, the minimalist FlatPress theme.
-Version: 1.0
+Version: 1.1
 Author: Num7
 Author URI: https://num7.paranormalis.com
 */
@@ -15,7 +15,7 @@ Author URI: https://num7.paranormalis.com
 	$style['author'] = 'Num7';
 	$style['www'] = 'https://num7.paranormalis.com';
 	
-	$style['version'] = 1.0;
+	$style['version'] = 1.1;
 		
 	$style['style_def'] = 'style.css';
 	$style['style_admin'] = 'admin.css';
