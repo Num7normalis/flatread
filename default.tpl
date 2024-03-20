@@ -8,7 +8,7 @@
 				<div class="body">
 				
 				{if isset($rawcontent) and $rawcontent} {$content}
-				{else}	{include file=$content}{/if}
+				{else}	{include file="$content"}{/if}
 				
 				</div>
 			</div>
